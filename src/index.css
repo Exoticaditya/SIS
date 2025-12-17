@@ -158,4 +158,25 @@ html {
       transform: translateX(100%);
     }
   }
+
+  @keyframes floatBeam {
+    0%, 100% {
+      transform: translateY(0px) rotate(45deg);
+    }
+    50% {
+      transform: translateY(-20px) rotate(55deg);
+    }
+  }
+
+  .animate-float {
+    animation: floatBeam 8s ease-in-out infinite;
+  }
+
+  .animation-delay-200 {
+    animation-delay: 0.2s;
+  }
+
+  .animation-delay-400 {
+    animation-delay: 0.4s;
+  }
 }
