@@ -113,7 +113,7 @@ const PRODUCTS = [
     id: 1,
     name: 'SAIL SS Beams - Steel Railing',
     desc: 'Steel Railing that gives your house an Elegant Look. Trust Apollo and SAIL certified steel for beauty, strength, and long-life railings.',
-    image: '/assets/steel-beams-railing.jpg',
+    image: '/assets/steel-railing-sail.jpg',
     features: [
       'Elegant Look Railings',
       'SAIL Certified Steel',
@@ -130,7 +130,7 @@ const PRODUCTS = [
     id: 2,
     name: 'Sel Tiger TMT Bars - JSW',
     desc: 'High Strength with Better Durability. Trust JSW for a roof that looks new for years with minimal maintenance. Best Price guaranteed.',
-    image: '/assets/tmt-bars-1.jpg',
+    image: '/assets/tmt-bars-jsw-real.jpg',
     features: [
       'Better Durability',
       'Best Price Promise',
@@ -147,7 +147,7 @@ const PRODUCTS = [
     id: 3,
     name: 'Sel Tiger TMT Bars',
     desc: 'Experience The Legacy of Strength. India\'s trusted TMT bars delivering superior quality and reliability for all construction needs.',
-    image: '/assets/tmt-bars-2.jpg',
+    image: '/assets/tmt-construction.jpg',
     features: [
       'Legacy of Strength',
       'Premium Quality TMT',
@@ -164,7 +164,7 @@ const PRODUCTS = [
     id: 4,
     name: 'SAIL Beams - Strong Foundation',
     desc: 'Great dreams are built on Strong Foundation. SAIL beams designed to provide exceptional support for your construction needs.',
-    image: '/assets/steel-foundation.jpg',
+    image: '/assets/steel-beams-foundation.jpg',
     features: [
       'Strong Foundation',
       'SAIL Quality Beams',
@@ -181,7 +181,7 @@ const PRODUCTS = [
     id: 5,
     name: 'Apollo Stainless Steel Pipes & Tubes',
     desc: 'Flow with Strength, Built to Last. Apollo stainless steel pipes combining hygiene, strength, and versatility for all applications.',
-    image: '/assets/steel-pipes-1.jpg',
+    image: '/assets/apollo-pipes-real.jpg',
     features: [
       'Flow with Strength',
       'Built to Last',
@@ -215,7 +215,7 @@ const PRODUCTS = [
     id: 7,
     name: 'JSW Neosteel FE 550D TMT Bars',
     desc: 'Strength and Reliability for All Seasons. JSW Neosteel delivering superior performance in all weather conditions.',
-    image: '/assets/tmt-bars-jsw.jpg',
+    image: '/assets/tmt-construction.jpg',
     features: [
       'All Seasons Performance',
       'JSW Neosteel Brand',
@@ -249,7 +249,7 @@ const PRODUCTS = [
     id: 9,
     name: 'JSW Roofing Sheets',
     desc: 'Built Strong, Built for All Seasons. Premium JSW roofing sheets with best price guarantee for durable, leak-proof roofing.',
-    image: '/assets/roofing-sheets.jpg',
+    image: '/assets/corrugated-roofing.jpg',
     features: [
       'Built Strong',
       'All Seasons Protection',
@@ -266,7 +266,7 @@ const PRODUCTS = [
     id: 10,
     name: 'Heavy Steel Coils & Sheets',
     desc: 'Durable steel coils and sheet packs for industrial processing, slitting, and fabrication.',
-    image: '/assets/steel-coils.jpg',
+    image: '/assets/steel-coils-real.jpg',
     features: [
       'Prime Coils',
       'Consistent Gauge',
@@ -283,7 +283,7 @@ const PRODUCTS = [
     id: 11,
     name: 'Welding Electrodes',
     desc: 'Reliable welding electrodes for strong joints with consistent arc stability and minimal spatter.',
-    image: '/assets/welding-electrodes.jpg',
+    image: '/assets/welding-rods.jpg',
     features: [
       'Smooth Arc',
       'Low Spatter',
@@ -300,7 +300,7 @@ const PRODUCTS = [
     id: 12,
     name: 'Welded Wire Mesh',
     desc: 'Uniform welded mesh for reinforcement, safety grills, and fencing with rust-resistant finish.',
-    image: '/assets/wire-mesh.jpg',
+    image: '/assets/wire-mesh-real.jpg',
     features: [
       'Uniform Grid',
       'Strong Welds',
@@ -317,7 +317,7 @@ const PRODUCTS = [
     id: 13,
     name: 'Hot Rolled Coils',
     desc: 'Hot rolled steel coils for downstream processing with reliable mechanical properties and surface quality.',
-    image: '/assets/steel-coils.jpg',
+    image: '/assets/steel-coils-real.jpg',
     features: [
       'HR Quality',
       'Process Ready',
@@ -351,7 +351,7 @@ const PRODUCTS = [
     id: 15,
     name: 'Hollow Structural Sections',
     desc: 'Square and rectangular hollow sections with clean edges and high load capacity for modern structures.',
-    image: '/assets/angles-channels.jpg',
+    image: '/assets/steel-angles.jpg',
     features: [
       'Square & Rectangular',
       'Clean Edges',
@@ -368,7 +368,7 @@ const PRODUCTS = [
     id: 16,
     name: 'Shiv Iron Store Profile',
     desc: 'Your trusted partner for every steel and construction material need across NCR with fast delivery.',
-    image: '/assets/steel-beams-railing.jpg',
+    image: '/assets/steel-railing-sail.jpg',
     features: [
       'Authorized Brands',
       'Large Inventory',
@@ -436,7 +436,7 @@ const PRODUCTS = [
     id: 20,
     name: 'Roofing & Sheet Display',
     desc: 'Color and metal sheet options showcased for leak-proof, long-life roofing and cladding.',
-    image: '/assets/roofing-sheets.jpg',
+    image: '/assets/corrugated-roofing.jpg',
     features: [
       'Color Options',
       'Weather Resistant',
