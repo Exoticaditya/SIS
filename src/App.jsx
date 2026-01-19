@@ -215,7 +215,7 @@ const PRODUCTS = [
     id: 7,
     name: 'APL Apollo Pipes',
     desc: 'High-quality APL Apollo structural pipes and tubes for modern architectural and industrial needs.',
-    image: 'https://admin.aplapollo.com/uploads/Tricoat_03871ab5e0.jpg',
+    image: '/assets/apl_apollo_pipes_real_fix.png.png',
     features: [
       'APL Apollo Quality',
       'Clean Surface Finish',
