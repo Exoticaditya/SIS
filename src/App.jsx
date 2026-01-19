@@ -100,405 +100,167 @@ const BuildingAnimation = () => {
 const COMPANY_DETAILS = {
   fullName: 'Shiv Iron Store',
   tagline: 'Your Trusted Iron & Steel Materials Specialist',
-  description: 'Leading supplier of premium construction materials across NCR with 40+ years of excellence. Authorized dealers of JSW Steel, APL Apollo Pipes, Rathi TMT Bars, SAIL, and other leading brands.',
+  description: 'Leading supplier of premium construction materials across NCR with 40+ years of excellence. Supplier of SAIL, JSW Steel, Tata Steel, Jindal, Apollo, Hisar, and Rana Brands.',
   logo: '/assets/logo shiv 2.png',
-  phone1: '+91-9999999999',
-  phone2: '+91-8888888888',
-  email: 'info@shivironstore.com',
-  address: 'Ghaziabad, NCR, India'
+  phone1: '+91-9870333309',
+  phone2: '0120-4322677',
+  email: 'shviron@gmail.com',
+  address: 'H-47 Sector-9 Noida 201301 (India)'
 };
 
 const PRODUCTS = [
   {
     id: 1,
-    name: 'SAIL SS Beams - Steel Railing',
-    desc: 'Steel Railing that gives your house an Elegant Look. Trust Apollo and SAIL certified steel for beauty, strength, and long-life railings.',
-    image: '/assets/real-steel-beams.jpg',
+    name: 'SAIL Structure',
+    desc: 'Heavy structural SAIL steel I-beams, H-beams, and channels for building strong foundations and industrial frames. ISMB and ISMC certified.',
+    image: '/assets/sail_structure_fix.png',
     features: [
-      'Elegant Look Railings',
-      'SAIL Certified Steel',
-      'Apollo Trusted Quality',
-      'Superior Strength',
-      'Weather Resistant Finish',
-      'Easy to Install'
-    ],
-    sizes: 'ISMB: 100mm to 600mm | ISMC: 75mm to 400mm',
-    category: 'Steel Railings',
-    applications: 'Home railings, Balcony grills, Staircases, Commercial properties'
-  },
-  {
-    id: 2,
-    name: 'Sel Tiger TMT Bars - JSW',
-    desc: 'High Strength with Better Durability. Trust JSW for a roof that looks new for years with minimal maintenance. Best Price guaranteed.',
-    image: '/assets/real-tmt-bars.jpg',
-    features: [
-      'Better Durability',
-      'Best Price Promise',
-      'Trust JSW Quality',
-      'Fe 500D & Fe 550D',
-      'High Tensile Strength',
-      'Corrosion Resistant'
-    ],
-    sizes: '8mm, 10mm, 12mm, 16mm, 20mm, 25mm, 32mm',
-    category: 'TMT Bars',
-    applications: 'Residential, Commercial, Bridges, Industrial construction'
-  },
-  {
-    id: 3,
-    name: 'Sel Tiger TMT Bars',
-    desc: 'Experience The Legacy of Strength. India\'s trusted TMT bars delivering superior quality and reliability for all construction needs.',
-    image: '/assets/real-rebar.jpg',
-    features: [
-      'Legacy of Strength',
-      'Premium Quality TMT',
-      'High Tensile Strength',
-      'Earthquake Resistant',
-      'ISI Certified',
-      'Best Price Guarantee'
-    ],
-    sizes: '8mm, 10mm, 12mm, 16mm, 20mm, 25mm, 32mm',
-    category: 'TMT Bars',
-    applications: 'Residential buildings, High-rises, Bridges, Infrastructure'
-  },
-  {
-    id: 4,
-    name: 'SAIL Beams - Strong Foundation',
-    desc: 'Great dreams are built on Strong Foundation. SAIL beams designed to provide exceptional support for your construction needs.',
-    image: '/assets/real-steel-structure.jpg',
-    features: [
-      'Strong Foundation',
-      'SAIL Quality Beams',
-      'ISMC & ISMB Sections',
-      'Exceptional Support',
+      'Genuine SAIL Quality',
+      'ISMB/ISMC Sections',
       'High Load Capacity',
-      'Trusted Quality'
+      'Mill Certified Steel',
+      'Perfect for Frames',
+      'Available in All Sizes'
     ],
     sizes: 'ISMB: 100mm to 600mm | ISMC: 75mm to 400mm',
     category: 'Structural Steel',
-    applications: 'Building frames, Industrial structures, Construction foundations'
+    applications: 'Building foundations, Bridge construction, Industrial sheds'
+  },
+  {
+    id: 2,
+    name: 'SAIL TMT Bars',
+    desc: 'Premium SAIL TMT bars for superior strength and earthquake resistance. The benchmark of quality in Indian construction.',
+    image: '/assets/sail_tmt_fix.png',
+    features: [
+      'Earthquake Resistant',
+      'High Tensile Strength',
+      'Superior Ductility',
+      'SAIL TMT Certified',
+      'Corrosion Resistant',
+      'Best Price Guarantee'
+    ],
+    sizes: '8mm to 32mm | Fe 500D & Fe 550D',
+    category: 'TMT Bars',
+    applications: 'High-rise buildings, Bridges, Residential projects'
+  },
+  {
+    id: 3,
+    name: 'JSW TMT Bars',
+    desc: 'JSW Neosteel and Sel Tiger TMT bars offering high strength and durability. Advanced tech for long-lasting structures.',
+    image: '/assets/jsw_tmt_fix.png',
+    features: [
+      'Advanced Ribbed Design',
+      'High Bond Strength',
+      'Uniform Thickness',
+      'JSW Brand Trust',
+      'Weather Resistant',
+      'Competitive Pricing'
+    ],
+    sizes: '8mm to 32mm | Fe 500D',
+    category: 'TMT Bars',
+    applications: 'Residential, Commercial, Industrial projects'
+  },
+  {
+    id: 4,
+    name: 'RATHI TMT Bars',
+    desc: 'Rathi Shaktiman and Steel TMT bars known for their legacy of strength and professional grade quality in the NCR region.',
+    image: '/assets/rathi_tmt_bars_real.png',
+    features: [
+      'Legendary Rathi Trust',
+      'Superior Bond Strength',
+      'Excellent Weldability',
+      'Thermal Stability',
+      'NCR Choice Brand',
+      'Ready Stocks'
+    ],
+    sizes: '8mm to 32mm | Fe 500D',
+    category: 'TMT Bars',
+    applications: 'All construction types, Real estate projects'
   },
   {
     id: 5,
-    name: 'Apollo Stainless Steel Pipes & Tubes',
-    desc: 'Flow with Strength, Built to Last. Apollo stainless steel pipes combining hygiene, strength, and versatility for all applications.',
-    image: '/assets/real-pipes-tubes.jpg',
+    name: 'RUNGTA TMT Bars',
+    desc: 'Rungta Steel TMT bars providing economical and robust solutions for large-scale construction needs.',
+    image: '/assets/rungta_tmt_bars_real.png',
     features: [
-      'Flow with Strength',
-      'Built to Last',
-      'Hygiene & Strength',
-      'Corrosion Resistant',
-      'Apollo Quality',
-      'Multiple Sizes Available'
+      'Cost-Effective Quality',
+      'High Corrosion Resistance',
+      'Easy to Weld',
+      'Uniform Rib Design',
+      'Bulk Availability',
+      'Direct Factory Support'
     ],
-    sizes: '15mm to 200mm | SS 304 & SS 316 grades',
-    category: 'Steel Pipes',
-    applications: 'Plumbing, Food industry, Pharmaceutical, Chemical plants'
+    sizes: '8mm to 32mm | Fe 500D',
+    category: 'TMT Bars',
+    applications: 'Infrastructure, Factories, Warehouses'
   },
   {
     id: 6,
-    name: 'TMT Bars - Unbeatable Prices',
-    desc: 'Discover Top-Tier TMT Bars at Unbeatable Prices. Premium construction steel for your projects at the best rates in the market.',
-    image: '/assets/real-steel-rods.jpg',
+    name: 'Prime Gold TMT Bars',
+    desc: 'Prime Gold TMT bars with unique ribbed patterns for the highest bond strength with concrete.',
+    image: '/assets/prime_gold_tmt_bars_real.png',
     features: [
-      'Top-Tier Quality',
-      'Unbeatable Prices',
-      'Best Market Rates',
-      'Fe 500D & Fe 550D',
-      'High Strength',
-      'Immediate Availability'
+      'Unique Rib Pattern',
+      'Premium Bond Strength',
+      'Consistent Grade',
+      'High Durability',
+      'ISI Certified',
+      'Transparent Pricing'
     ],
-    sizes: '8mm, 10mm, 12mm, 16mm, 20mm, 25mm, 32mm',
+    sizes: '8mm to 32mm | Fe 500D',
     category: 'TMT Bars',
-    applications: 'All construction types, Residential, Commercial, Infrastructure'
+    applications: 'Foundations, Columns, Beams'
   },
   {
     id: 7,
-    name: 'JSW Neosteel FE 550D TMT Bars',
-    desc: 'Strength and Reliability for All Seasons. JSW Neosteel delivering superior performance in all weather conditions.',
-    image: '/assets/real-tmt-bars.jpg',
+    name: 'APL Apollo Pipes',
+    desc: 'High-quality APL Apollo structural pipes and tubes for modern architectural and industrial needs.',
+    image: 'https://admin.aplapollo.com/uploads/Tricoat_03871ab5e0.jpg',
     features: [
-      'All Seasons Performance',
-      'JSW Neosteel Brand',
-      'FE 550D Grade',
-      'High Strength',
-      'Weather Resistant',
-      'Best Price'
+      'APL Apollo Quality',
+      'Clean Surface Finish',
+      'Wide Size Range',
+      'Structural Stability',
+      'Corrosion Resistant',
+      'Easy Fabrication'
     ],
-    sizes: '8mm, 10mm, 12mm, 16mm, 20mm, 25mm, 32mm',
-    category: 'TMT Bars',
-    applications: 'Residential, Commercial, Industrial, All weather construction'
+    sizes: '15mm to 200mm | MS & GI options',
+    category: 'Steel Pipes',
+    applications: 'Scaffolding, Furniture, Structural frames'
   },
   {
     id: 8,
-    name: 'APL Apollo Steel Pipes',
-    desc: 'Durable, cost-effective, and versatile. Ideal for general construction and infrastructure with trusted Apollo quality.',
-    image: '/assets/real-pipes-tubes.jpg',
+    name: 'Color Coated Sheets',
+    desc: 'Vibrant and weather-resistant color coated roofing sheets from JSW and and Tata for a premium look.',
+    image: '/assets/colour_coated_roofing_real.png',
     features: [
-      'APL Apollo Quality',
-      'Durable & Cost-Effective',
-      'Versatile Applications',
-      'MS Black & GI Options',
-      'All Sizes Available',
-      'Best Price Guarantee'
+      'Multiple Colors',
+      'UV Protected',
+      'Leak-Proof Profiling',
+      'Anti-Corrosive Coating',
+      'Vibrant Long-Life Color',
+      'Lightweight & Strong'
     ],
-    sizes: '15mm to 200mm (All NB sizes available)',
-    category: 'Steel Pipes',
-    applications: 'Construction, Infrastructure, Plumbing, Structural work'
+    sizes: '0.35mm to 0.80mm | Custom lengths',
+    category: 'Roofing',
+    applications: 'Factories, Warehouses, Residential roofing'
   },
   {
     id: 9,
-    name: 'JSW Roofing Sheets',
-    desc: 'Built Strong, Built for All Seasons. Premium JSW roofing sheets with best price guarantee for durable, leak-proof roofing.',
-    image: '/assets/real-roofing-metal.jpg',
-    features: [
-      'Built Strong',
-      'All Seasons Protection',
-      'Best Price Guarantee',
-      'Weather Resistant',
-      'Long Life Coating',
-      'Easy Installation'
-    ],
-    sizes: '0.35mm to 0.80mm thickness | Standard widths',
-    category: 'Roofing',
-    applications: 'Homes, Warehouses, Factories, Agricultural sheds'
-  },
-  {
-    id: 10,
-    name: 'Heavy Steel Coils & Sheets',
-    desc: 'Durable steel coils and sheet packs for industrial processing, slitting, and fabrication.',
-    image: '/assets/real-construction-steel.jpg',
-    features: [
-      'Prime Coils',
-      'Consistent Gauge',
-      'Good Flatness',
-      'Process Ready',
-      'Bulk Availability',
-      'Factory Direct'
-    ],
-    sizes: 'Custom coil widths and thickness on request',
-    category: 'Coils & Sheets',
-    applications: 'Service centers, Fabrication, Roofing, Panels'
-  },
-  {
-    id: 11,
-    name: 'Welding Electrodes',
-    desc: 'Reliable welding electrodes for strong joints with consistent arc stability and minimal spatter.',
-    image: '/assets/real-welding.jpg',
-    features: [
-      'Smooth Arc',
-      'Low Spatter',
-      'Strong Welds',
-      'Trusted Brands',
-      'All Positions',
-      'Ready Stock'
-    ],
-    sizes: 'Popular diameters: 2.5mm, 3.15mm, 4mm',
-    category: 'Welding Consumables',
-    applications: 'Structural welding, Fabrication, Maintenance'
-  },
-  {
-    id: 12,
-    name: 'Welded Wire Mesh',
-    desc: 'Uniform welded mesh for reinforcement, safety grills, and fencing with rust-resistant finish.',
-    image: '/assets/real-wire-mesh.jpg',
-    features: [
-      'Uniform Grid',
-      'Strong Welds',
-      'Rust Resistant',
-      'Easy to Install',
-      'Cut-to-Size',
-      'Bulk Rolls'
-    ],
-    sizes: 'Common apertures and gauges available',
-    category: 'Wire Mesh',
-    applications: 'Reinforcement, Fencing, Safety covers, Enclosures'
-  },
-  {
-    id: 13,
-    name: 'Hot Rolled Coils',
-    desc: 'Hot rolled steel coils for downstream processing with reliable mechanical properties and surface quality.',
-    image: '/assets/real-steel-site.jpg',
-    features: [
-      'HR Quality',
-      'Process Ready',
-      'Stable Properties',
-      'Consistent Thickness',
-      'Bulk Supply',
-      'Trusted Mills'
-    ],
-    sizes: 'Custom widths and thicknesses on order',
-    category: 'Coils',
-    applications: 'Pipes, Tubes, Fabrication, General steelwork'
-  },
-  {
-    id: 14,
-    name: 'Wire Rod Coils',
-    desc: 'High quality wire rod coils for drawing, binding, and fabrication with consistent chemistry.',
-    image: '/assets/real-rebar.jpg',
-    features: [
-      'Consistent Chemistry',
-      'Good Drawability',
-      'Clean Surface',
-      'High Strength Options',
-      'Bulk Coils',
-      'Ready Dispatch'
-    ],
-    sizes: 'Common rod diameters available',
-    category: 'Wire Rods',
-    applications: 'Wire drawing, Binding, Nails, Industrial use'
-  },
-  {
-    id: 15,
-    name: 'Hollow Structural Sections',
-    desc: 'Square and rectangular hollow sections with clean edges and high load capacity for modern structures.',
-    image: '/assets/real-steel-structure.jpg',
-    features: [
-      'Square & Rectangular',
-      'Clean Edges',
-      'High Load Capacity',
-      'Smooth Finish',
-      'Weldable & Paintable',
-      'Ready Stock'
-    ],
-    sizes: 'Multiple sizes and thicknesses available',
-    category: 'Hollow Sections',
-    applications: 'Architectural frames, Industrial sheds, Fabrication'
-  },
-  {
-    id: 16,
-    name: 'Shiv Iron Store Profile',
-    desc: 'Your trusted partner for every steel and construction material need across NCR with fast delivery.',
-    image: '/assets/real-steel-beams.jpg',
-    features: [
-      'Authorized Brands',
-      'Large Inventory',
-      'Fast Dispatch',
-      'Best Price Deals',
-      'Expert Guidance',
-      'Pan NCR Service'
-    ],
-    sizes: 'Comprehensive product range',
-    category: 'About Us',
-    applications: 'Builders, Contractors, Architects, Homeowners'
-  },
-  {
-    id: 17,
-    name: 'Premium Steel Promo',
-    desc: 'Featured steel solutions for strong, reliable construction—priced right and ready to move.',
-    image: '/assets/real-steel-rods.jpg',
-    features: [
-      'Quality Assured',
-      'Attractive Pricing',
-      'Ready Stock',
-      'Trusted Brands',
-      'Fast Delivery',
-      'Project Support'
-    ],
-    sizes: 'Standard and custom options',
-    category: 'Promotions',
-    applications: 'All construction and fabrication'
-  },
-  {
-    id: 18,
-    name: 'Structural Steel Promo',
-    desc: 'Highlighted structural steel offerings for immediate projects with dependable performance.',
-    image: '/assets/real-construction-steel.jpg',
-    features: [
-      'Structural Grade',
-      'Reliable Supply',
-      'Competitive Rates',
-      'Ready Dispatch',
-      'Quality Checked',
-      'On-site Support'
-    ],
-    sizes: 'Common structural sizes available',
-    category: 'Promotions',
-    applications: 'Frames, Sheds, Buildings'
-  },
-  {
-    id: 19,
-    name: 'Steel Pipes Bundle',
-    desc: 'Stocked steel pipe bundles for quick plumbing and structural deployments with consistent quality.',
-    image: '/assets/real-pipes-tubes.jpg',
-    features: [
-      'Bundle Supply',
-      'Consistent Quality',
-      'Quick Loading',
-      'Multiple Sizes',
-      'Value Pricing',
-      'Trusted Brands'
-    ],
-    sizes: 'NB sizes across 15mm to 200mm',
-    category: 'Steel Pipes',
-    applications: 'Plumbing, Structural, Industrial'
-  },
-  {
-    id: 20,
-    name: 'Roofing & Sheet Display',
-    desc: 'Color and metal sheet options showcased for leak-proof, long-life roofing and cladding.',
-    image: '/assets/real-metal-roof.jpg',
-    features: [
-      'Color Options',
-      'Weather Resistant',
-      'Leak Proof Overlaps',
-      'Long Life Coating',
-      'Quick Install',
-      'Great Value'
-    ],
-    sizes: 'Popular roofing widths and gauges',
-    category: 'Roofing',
-    applications: 'Homes, Warehouses, Sheds'
-  },
-  {
-    id: 21,
-    name: 'Binding Wire Display',
-    desc: 'Ready-to-use binding wire bundles for rebar tying and site work with consistent gauge.',
-    image: '/assets/binding-wire.jpg',
-    features: [
-      'Uniform Gauge',
-      'Strong Hold',
-      'Easy to Use',
-      'Tangle-Free',
-      'Bulk Packs',
-      'Site Ready'
-    ],
-    sizes: 'Gauge 18/20/22',
-    category: 'Wire Products',
-    applications: 'Rebar tying, Fencing, General binding'
-  },
-  {
-    id: 22,
-    name: 'Steel Plates Stack',
-    desc: 'Stacked steel plates showcasing uniform thickness and surface quality for fabrication and heavy duty use.',
+    name: 'MS Sheets & Plates',
+    desc: 'Mild Steel plates and sheets for heavy industrial processing, fabrication, and slitting.',
     image: '/assets/steel-plates.jpg',
     features: [
-      'Uniform Thickness',
-      'Smooth Surface',
-      'High Strength',
-      'Cut-to-Size Service',
-      'Bulk Stock',
-      'Reliable Supply'
+      'Consistent Gauge',
+      'Excellent Flatness',
+      'Ease of Fabrication',
+      'Weldable & Formable',
+      'Bulk Availability',
+      'Custom Slitting Available'
     ],
-    sizes: '1mm to 100mm thickness options',
-    category: 'Plates & Sheets',
-    applications: 'Fabrication, Tanks, Machine parts'
-  },
-  {
-    id: 23,
-    name: 'Hollow Sections Stack',
-    desc: 'Ready stock of hollow sections for fast dispatch—ideal for frames, supports, and modern builds.',
-    image: '/assets/angles-channels.jpg',
-    features: [
-      'Square & Rectangular',
-      'Clean Cut Ends',
-      'Uniform Gauge',
-      'High Load Capacity',
-      'Paintable Surface',
-      'Bulk Availability'
-    ],
-    sizes: 'Multiple sizes and thicknesses in stock',
-    category: 'Hollow Sections',
-    applications: 'Frames, Supports, Architectural use'
+    sizes: '1.2mm to 100mm thickness | All standard sizes',
+    category: 'Sheets & Plates',
+    applications: 'Industrial machinery, Tanks, Earthmoving equipment'
   }
 ];
 const STATS = [
@@ -512,7 +274,7 @@ const WHY_CHOOSE_US = [
   {
     icon: <Shield className="w-8 h-8" />,
     title: 'Certified Quality Products',
-    desc: 'All our products come with ISI certification, BIS licenses, and mill test certificates. We source directly from authorized dealers of leading brands like JSW, APL Apollo, Rathi, and SAIL, ensuring 100% genuine materials. Every product undergoes strict quality checks before dispatch.',
+    desc: 'All our products come with ISI certification, BIS licenses, and mill test certificates. We are supplier of leading brands like SAIL, JSW, Tata Steel, Jindal, Apollo, Hisar, and Rana, ensuring 100% genuine materials. Every product undergoes strict quality checks before dispatch.',
     color: 'from-secondary to-secondary-dark'
   },
   {
@@ -673,24 +435,31 @@ const Hero = () => {
   const [ref, isVisible] = useScrollAnimation();
 
   return (
-    <section id="home" className="relative min-h-screen flex flex-col pt-20 bg-slate-900 overflow-hidden">
-      {/* === Animated Background (CSS-based for performance) === */}
+    <section id="home" className="relative min-h-screen flex flex-col pt-20 overflow-hidden">
+      {/* === Background Image with Overlay === */}
       <div className="absolute inset-0 pointer-events-none">
-        {/* Deep gradient base - Made slightly lighter for contrast */}
-        <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-[#1e293b] to-[#0f172a]"></div>
+        {/* Background Image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: 'url(/assets/hero_background_real.png)',
+          }}
+        ></div>
 
-        {/* Animated Grid - Increased opacity from 20 to 30 and made lines brighter */}
-        <div className="absolute inset-0 opacity-30"
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-gradient-to-br from-slate-900/80 via-slate-800/70 to-slate-900/80"></div>
+
+        {/* Animated Grid - Subtle overlay */}
+        <div className="absolute inset-0 opacity-10"
           style={{
             backgroundImage: 'linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px)',
             backgroundSize: '40px 40px',
           }}
         ></div>
 
-        {/* Moving Orbs / Glow Effects - Increased opacity significantly */}
-        <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-primary/40 rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2 animate-pulse"></div>
-        <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-secondary/40 rounded-full blur-[120px] translate-x-1/2 translate-y-1/2 animate-pulse delay-1000"></div>
-        <div className="absolute top-1/2 left-1/2 w-[800px] h-[800px] bg-blue-500/20 rounded-full blur-[150px] -translate-x-1/2 -translate-y-1/2"></div>
+        {/* Subtle Glow Effects */}
+        <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-primary/20 rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2 animate-pulse"></div>
+        <div className="absolute bottom-0 right-0 w-[600px] h-[600px] bg-secondary/20 rounded-full blur-[120px] translate-x-1/2 translate-y-1/2 animate-pulse delay-1000"></div>
       </div>
 
       <div ref={ref} className="relative z-10 flex-grow flex items-center justify-center">
@@ -700,7 +469,7 @@ const Hero = () => {
             {/* Company Badge with Glassmorphism */}
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 px-5 py-2.5 rounded-full mb-10 shadow-xl ring-1 ring-white/10">
               <Building2 className="w-5 h-5 text-primary-light" />
-              <span className="text-blue-50 font-bold text-sm tracking-widest uppercase">Leading Iron & Steel Corporation</span>
+              <span className="text-blue-50 font-bold text-sm tracking-widest uppercase">Leading Iron & Steel Merchant</span>
             </div>
 
             {/* Main Heading with Gradient Text */}
@@ -721,7 +490,7 @@ const Hero = () => {
 
             {/* Description Text */}
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
-              <span className="text-primary-light font-bold">40+ Years</span> of Excellence. Authorized dealers of JSW, SAIL, Apollo & Rathi.
+              <span className="text-primary-light font-bold">40+ Years</span> of Excellence. Supplier of SAIL, JSW Steel, Tata Steel, Jindal, Apollo, Hisar, and Rana Brands.
               <span className="block mt-4 text-base text-slate-400 font-normal border-t border-slate-700/50 pt-4 w-fit mx-auto">
                 Premium Construction Materials • Wholesale Prices • NCR Delivery
               </span>
@@ -834,16 +603,16 @@ const ProductsSection = () => {
         }} className="w-full h-full"></div>
       </div>
       <div ref={ref} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className={`text-center mb-16 transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+        <div className="text-center mb-16 translate-y-0 opacity-100 transition-all duration-700">
           <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-4">
             Our <span className="text-secondary">Products & Services</span>
           </h2>
           <p className="text-gray-600 text-lg max-w-3xl mx-auto mb-4">
             We offer a wide variety of products & sizes to satisfy all our customer's specific applications.
-            Premium materials from India's most trusted brands - JSW, APL Apollo, Rathi, SAIL & more.
+            Premium materials from India's most trusted brands - SAIL, JSW Steel, Tata Steel, Jindal, Apollo, Hisar, and Rana Brands.
           </p>
           <p className="text-gray-600 text-sm max-w-2xl mx-auto">
-            Authorized dealers and stockists with complete range of construction materials.
+            Supplier of premium steel brands with complete range of construction materials.
             All products come with manufacturer warranty and test certificates.
           </p>
         </div>
@@ -1311,7 +1080,7 @@ const AboutUsPage = () => {
                 We are a leading TMT bars supplier in Noida, offering premium-grade steel for residential, commercial, and infrastructure projects. Our wide product range includes TMT Bars, Structural Steel, Steel Angles, Steel Channels, MS Flats, Steel Pipes, and Colour Coated Sheets, making us a one-stop iron and steel store in Noida.
               </p>
               <p>
-                We proudly deal in India’s most trusted steel brands, including JSW Steel, Tata Steel, SAIL, Jindal, Apollo, Hisar, and Rana Brands. All products supplied by us meet industry standards, ensuring strength, durability, and long-term performance.
+                We proudly deal in India’s most trusted steel brands, including <span className="text-secondary font-bold">SAIL, JSW Steel, Tata Steel, Rathi, Apollo, Rungta, and Rana Brands</span>. All products supplied by us meet industry standards, ensuring strength, durability, and long-term performance.
               </p>
               <p>
                 Located in Noida, we are a preferred construction steel supplier in Noida, known for our customer-first approach and dependable service. Whether you are searching for the best iron store in Noida or a reliable steel supplier near you, Shiv Iron Store is your trusted partner for quality steel solutions.
@@ -1386,7 +1155,7 @@ const AboutUsPage = () => {
               {
                 icon: <CheckCircle className="w-10 h-10" />,
                 title: 'Quality First',
-                desc: 'We source only from authorized dealers of leading brands like JSW, APL Apollo, Rathi, and SAIL. Each batch is inspected before dispatch to ensure it meets industry standards and customer expectations.',
+                desc: 'We are supplier of leading brands like SAIL, JSW, Tata Steel, Jindal, Apollo, Hisar, and Rana. Each batch is inspected before dispatch to ensure it meets industry standards and customer expectations.',
                 color: 'from-green-500 to-green-600'
               },
               {
@@ -1414,7 +1183,7 @@ const AboutUsPage = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { icon: <Factory className="w-6 h-6" />, title: 'Authorized Stockist', desc: 'Direct partnership with major brands ensures authenticity and best prices' },
+              { icon: <Factory className="w-6 h-6" />, title: 'Premium Supplier', desc: 'Direct partnership with major brands ensures authenticity and best prices' },
               { icon: <Truck className="w-6 h-6" />, title: 'Own Fleet', desc: 'Our vehicles ensure timely delivery and careful material handling' },
               { icon: <Clock className="w-6 h-6" />, title: '40+ Years Experience', desc: 'Four decades of industry knowledge at your service' },
               { icon: <Package className="w-6 h-6" />, title: 'Vast Inventory', desc: '500+ product variants always in stock for immediate delivery' },
@@ -1476,11 +1245,11 @@ const AboutCompany = () => {
           <div className={`transition-all duration-700 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}>
             <div className="relative rounded-3xl shadow-2xl overflow-hidden h-auto w-full border-2 border-primary bg-white">
               <img
-                src="/assets/www.jpeg"
+                src="/assets/real-construction-steel.jpg"
                 alt="Company Warehouse"
                 className="w-full h-auto object-contain transform hover:scale-105 transition-transform duration-700"
                 onError={(e) => {
-                  e.target.src = '/assets/ww.jpeg';
+                  e.target.src = 'https://images.unsplash.com/photo-1587293852726-70cdb56c2866?w=800&q=80';
                 }}
               />
               <div className="absolute -bottom-6 -right-6 bg-primary text-white p-8 rounded-3xl shadow-xl z-20">
@@ -1677,7 +1446,6 @@ const App = () => {
 
       <PartnersMarquee />
       <AboutUsPage />
-      <AboutCompany />
       <WhyChooseUs />
       <ProductsSection />
       <ApplicationsSection />
