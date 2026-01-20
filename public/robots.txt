@@ -1,0 +1,11 @@
+# Robots.txt for Shiv Iron Store
+# Allow all search engines to crawl the entire site
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://shiviron.com/sitemap.xml
+
+# Optional: Crawl-delay to prevent server overload
+Crawl-delay: 1
