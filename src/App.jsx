@@ -490,7 +490,7 @@ const Hero = () => {
 
             {/* Description Text */}
             <p className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-12 leading-relaxed font-light">
-              <span className="text-primary-light font-bold">40+ Years</span> of Excellence. Supplier of SAIL, JSW Steel, Tata Steel, Jindal, Apollo, Hisar, and Rana Brands.
+              <span className="text-primary-light font-bold">40+ Years</span> of Excellence. Supplier of SAIL, JSW Steel, Tata Steel, Apollo, Jindal Hisar, and Rana Brands.
               <span className="block mt-4 text-base text-slate-400 font-normal border-t border-slate-700/50 pt-4 w-fit mx-auto">
                 Premium Construction Materials • Wholesale Prices • NCR Delivery
               </span>
