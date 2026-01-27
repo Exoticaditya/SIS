@@ -100,7 +100,7 @@ const BuildingAnimation = () => {
 const COMPANY_DETAILS = {
   fullName: 'Shiv Iron Store',
   tagline: 'Your Trusted Iron & Steel Materials Specialist',
-  description: 'Leading supplier of premium construction materials across NCR with 40+ years of excellence. Supplier of SAIL, JSW Steel, Tata Steel, Jindal, Apollo, Hisar, and Rana Brands.',
+  description: 'Leading supplier of premium construction materials across NCR with 40+ years of excellence. Supplier of SAIL, JSW Steel, Tata Steel, Apollo, Jindal Hisar, and Rana Brands.',
   logo: '/assets/logo shiv 2.png',
   phone1: '+91-9870333309',
   phone2: '0120-4322677',
